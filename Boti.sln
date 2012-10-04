@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Boti", "Boti\Boti.vcxproj", "{04F358B7-7FAD-4FE4-87F8-724AF86D3A15}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BotiEngine", "BotiEngine\BotiEngine.vcxproj", "{2D854AE3-E991-4BF6-8CF5-364556D07680}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestBotiEngine", "TestBotiEngine\TestBotiEngine.vcxproj", "{9757CB21-B840-49A6-B057-9F322E543DD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04F358B7-7FAD-4FE4-87F8-724AF86D3A15}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04F358B7-7FAD-4FE4-87F8-724AF86D3A15}.Debug|Win32.Build.0 = Debug|Win32
+		{04F358B7-7FAD-4FE4-87F8-724AF86D3A15}.Release|Win32.ActiveCfg = Release|Win32
+		{04F358B7-7FAD-4FE4-87F8-724AF86D3A15}.Release|Win32.Build.0 = Release|Win32
+		{2D854AE3-E991-4BF6-8CF5-364556D07680}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2D854AE3-E991-4BF6-8CF5-364556D07680}.Debug|Win32.Build.0 = Debug|Win32
+		{2D854AE3-E991-4BF6-8CF5-364556D07680}.Release|Win32.ActiveCfg = Release|Win32
+		{2D854AE3-E991-4BF6-8CF5-364556D07680}.Release|Win32.Build.0 = Release|Win32
+		{9757CB21-B840-49A6-B057-9F322E543DD6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9757CB21-B840-49A6-B057-9F322E543DD6}.Debug|Win32.Build.0 = Debug|Win32
+		{9757CB21-B840-49A6-B057-9F322E543DD6}.Release|Win32.ActiveCfg = Release|Win32
+		{9757CB21-B840-49A6-B057-9F322E543DD6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

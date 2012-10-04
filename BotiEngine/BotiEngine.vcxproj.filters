@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Sdcge">
+      <UniqueIdentifier>{74114803-455e-41e0-a850-b4ec9955b647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sdcge\math">
+      <UniqueIdentifier>{3d8c3511-eb18-4fe5-bb83-a6513f010b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sdcge\math\LinearAlgebra">
+      <UniqueIdentifier>{c7b81837-c98c-4954-8baa-779f61841ab3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sdcge.h">
+      <Filter>Sdcge</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>Sdcge</Filter>
+    </ClInclude>
+    <ClInclude Include="linearAlgebra.h">
+      <Filter>Sdcge\math\LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="sdcgemath.h">
+      <Filter>Sdcge\math</Filter>
+    </ClInclude>
+    <ClInclude Include="IIO.h">
+      <Filter>Sdcge</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sdcge.cpp">
+      <Filter>Sdcge</Filter>
+    </ClCompile>
+    <ClCompile Include="linearAlgebra.cpp">
+      <Filter>Sdcge\math\LinearAlgebra</Filter>
+    </ClCompile>
+    <ClCompile Include="IIO.cpp">
+      <Filter>Sdcge</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
