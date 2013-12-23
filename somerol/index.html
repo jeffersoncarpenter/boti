@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Some ROL</title>
+    
+    <!-- useful JavaScript extensions -->
+    <script src="somejs.js"></script>
+
+    <!-- some math functions -->
+    <script src="somemath.js"></script>
+
+    <!-- some 2d graphics functions that use the 2d canvas -->
+    <script src="somegraphics.js"></script>
+
+    <!-- the game -->
+    <script src="somerol.js"></script>
+
+    <!-- bring in jquery -->
+    <script src="jquery-1.7.1.min.js"></script>
+
+    <!-- start the game on page load -->
+    <script>
+      $(function () {
+
+        var canvas = document.getElementById("canvas");
+
+        SomeROL.init(canvas); // initialize engine
+
+        SomeROL.create_game() // initialize game
+               .add_player()
+               .start();; // add human player
+      });
+    </script>
+  </head>
+  <body>
+    <canvas id="canvas" height="600" width="800" />
+  </body>
+</html>

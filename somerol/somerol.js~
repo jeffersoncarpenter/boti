@@ -1,0 +1,12 @@
+var somerol = (function () {
+
+    // outer somerol gets assigned to inner somerol
+    var somerol = {};
+
+
+    init = function (canvas) {
+	alert("aoeU");
+    };
+
+    return somerol;
+})();

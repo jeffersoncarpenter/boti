@@ -1,0 +1,5 @@
+// "cross product" of 2d vectors
+var cross_product = function (point1, point2) {
+    return p1.x * p2.y - p1.y * p2.x;
+};
+

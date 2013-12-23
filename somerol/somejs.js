@@ -1,0 +1,9 @@
+Array.prototype.map = function (func) {
+    var result = [];
+    
+    for(var i = 0; i < this.length; i++) {
+	result.push(func(this[i]));
+    };
+
+    return result;
+};
